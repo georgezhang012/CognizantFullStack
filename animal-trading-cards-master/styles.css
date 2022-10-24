@@ -1,0 +1,46 @@
+/* add your CSS here */
+
+h3 {
+  margin: 5px;
+  padding: 5px;
+}
+
+.outerdiv {
+  width:320px;
+  border:1px solid black;
+  border-radius: 10px;
+  background-color: #66CCFF;
+}
+
+.whalepic {
+  width: 300px;
+  height:200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 2%;
+}
+
+
+
+.factdiv{
+  margin: 10px;
+  padding:5px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.whaletext {
+  padding: 5px;
+  font-style: italic;
+}
+
+
+.label {
+  font-weight: bold;
+  font-size: 15px;
+}
+ul {
+   list-style: none;
+      padding-left: 5px;
+}
