@@ -7,8 +7,15 @@ public class Room implements IRoom{
 
     String roomNumber;
     double price;
-    RoomType roomType;
+    RoomType enumeration;
     Boolean isFree;
+
+    public Room(String roomNumber, double price, RoomType enumeration, Boolean isFree) {
+        this.roomNumber = roomNumber;
+        this.price = price;
+        this.enumeration = enumeration;
+        this.isFree = isFree;
+    }
 
     public String getRoomNumber() {
         return this.roomNumber;
@@ -28,7 +35,7 @@ public class Room implements IRoom{
 
     @Override
     public String toString() {
-        return "Room number: "+this.roomNumber+" Room price: "+ this.price+" roomType: "+this.roomType;
+        return "Room number: "+this.roomNumber+" Room price: "+ this.price+" roomType: "+this.enumeration;
     }
 
 }
