@@ -3,7 +3,6 @@ package service;
 import model.Customer;
 import model.IRoom;
 import model.Reservation;
-import model.Room;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -65,6 +64,14 @@ public class ReservationService {
             System.out.println(reservation.toString());
         }
 
+    }
+
+    public Reservation reserveARoom(Customer customer, IRoom room, Date checkInDate, Date checkOutDate) {
+
+        Reservation reservation=new Reservation(customer, room, checkInDate,checkOutDate);
+        reservationList.add(reservation);
+
+        return reservation;
     }
 
     private boolean isReservationConflict(Reservation reservation, Date checkInDate, Date checkOutDate) {
