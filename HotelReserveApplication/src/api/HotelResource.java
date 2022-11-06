@@ -15,11 +15,11 @@ public class HotelResource {
     private CustomerService customerService=CustomerService.getCustomerService();
     private ReservationService reservationService=ReservationService.getReservationService();
 
-    private HotelResource hotelResource = new HotelResource();
+    private static final HotelResource hotelResource=new HotelResource();
 
     private HotelResource()  { }
 
-    public HotelResource getHotelResource() {
+    public static HotelResource getHotelResource() {
         return hotelResource;
     }
 
@@ -54,7 +54,7 @@ public class HotelResource {
     }
 
     public  Collection<IRoom> findARoom(Date checkInDate, Date checkOutDate) {
-        return  reservationService.findRooms(checkInDate, checkOutDate);
+        return  reservationService.findAvailableRooms(checkInDate, checkOutDate);
     }
 
 }

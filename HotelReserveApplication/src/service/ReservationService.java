@@ -12,10 +12,10 @@ import java.util.stream.Collectors;
 
 public class ReservationService {
 
-    private static ReservationService reservationService=new ReservationService();
+    private static final ReservationService reservationService=new ReservationService();
 
-    private List<Reservation> reservationList;
-    private List<IRoom> rooms;
+    private static List<Reservation> reservationList;
+    private static List<IRoom> rooms;
 
 
     private ReservationService() {
@@ -24,7 +24,7 @@ public class ReservationService {
     public static ReservationService getReservationService() {
         return reservationService;
     }
-    public void addRoom(IRoom room) {
+    public static void addRoom(IRoom room) {
 
         rooms.add(room);
     }
@@ -40,7 +40,7 @@ public class ReservationService {
         return null;
     }
 
-    public Collection<IRoom> findRooms(Date checkInDate, Date checkOutDate) {
+    public Collection<IRoom> findAvailableRooms(Date checkInDate, Date checkOutDate) {
 
         List<IRoom> nonAvailableRooms=new ArrayList<>();
 

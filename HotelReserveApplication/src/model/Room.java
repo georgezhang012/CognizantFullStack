@@ -6,15 +6,13 @@ public class Room implements IRoom{
 
 
     String roomNumber;
-    double price;
+    private Double price;
     RoomType enumeration;
-    Boolean isFree;
 
-    public Room(String roomNumber, double price, RoomType enumeration, Boolean isFree) {
+    public Room(String roomNumber, double price, RoomType enumeration) {
         this.roomNumber = roomNumber;
         this.price = price;
         this.enumeration = enumeration;
-        this.isFree = isFree;
     }
 
     public String getRoomNumber() {
@@ -30,7 +28,7 @@ public class Room implements IRoom{
     }
 
     public boolean isFree(){
-        return isFree;
+        return this.price!=null && this.price.equals(0.0);
     }
 
     @Override
