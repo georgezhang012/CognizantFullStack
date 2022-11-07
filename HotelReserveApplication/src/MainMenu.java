@@ -66,7 +66,6 @@ public class MainMenu {
         Scanner scanner=new Scanner(System.in);
         System.out.println("Please enter Check-In Date in the format of mm/dd/yyyy ");
 
-        SimpleDateFormat formatter=new SimpleDateFormat("MM-dd-yyyy");
         Date checkIn=getFormattedDate(scanner.nextLine());
         System.out.println("Please enter Check-Out Date in the format of mm/dd/yyyy ");
         Date checkOut=getFormattedDate(scanner.nextLine());
@@ -82,6 +81,7 @@ public class MainMenu {
                 Collection<IRoom> altAvailableRoom=hotelResource.findARoom(newCheckIn, newCheckOut);
                 if(altAvailableRoom.size()==0) {
                     System.out.println("No available room found");
+                    printMainMenu();
                 } else {
 
                     System.out.println("We've only found rooms on alternative dates:" +
@@ -101,7 +101,7 @@ public class MainMenu {
     }
 
     private static Date getFormattedDate(String d) {
-        SimpleDateFormat  formatter=new SimpleDateFormat("MM-dd-yyyy");
+        SimpleDateFormat  formatter=new SimpleDateFormat("MM/dd/yyyy");
         Date date;
         try {
             date= (Date) formatter.parse(d);
@@ -132,6 +132,7 @@ public class MainMenu {
         for(Reservation reservation:reservations) {
             System.out.println(reservation);
         }
+        printMainMenu();
     }
 
 
@@ -159,7 +160,7 @@ public class MainMenu {
     }
 
 //
-//    public AdminMenu openAdminMenu() {
+//    public  openAdminMenu() {
 //
 //    }
 
@@ -172,6 +173,7 @@ public class MainMenu {
             System.out.println("do you have an account with us? y/n");
             String accountResponse= scanner.nextLine();
             if(Character.toLowerCase(accountResponse.charAt(0))=='y') {
+                System.out.println("Please enter email format: name@domain.com");
                 String email=scanner.nextLine();
                 if(hotelResource.getCustomer(email)!=null) {
                     System.out.println("Which room do you want to reserve");
@@ -187,6 +189,10 @@ public class MainMenu {
                     } else {
                         System.out.println("Error: room number not available.\nStart reservation again.");
                     }
+
+                    printMainMenu();
+                } else {
+                    System.out.println("No customers found for email " + email +", please create a new account");
                 }
             } else {
                 System.out.println("Please create an account");

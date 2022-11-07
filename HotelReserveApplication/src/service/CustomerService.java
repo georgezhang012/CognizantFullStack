@@ -8,7 +8,7 @@ import java.util.List;
 
 public class CustomerService {
 
-    private List<Customer> customerList;
+    private List<Customer> customerList=new ArrayList<>();
 
     private static final CustomerService customerService=new CustomerService();
 
