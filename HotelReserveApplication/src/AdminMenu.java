@@ -3,6 +3,7 @@ import model.*;
 
 import java.util.Collection;
 import java.util.Collections;
+import java.util.Locale;
 import java.util.Scanner;
 
 public class AdminMenu {
@@ -96,7 +97,7 @@ public class AdminMenu {
         double price=Double.parseDouble(scanner.nextLine());
 
         System.out.println("Please enter room type: 1 for single bed, 2 for double bed");
-        RoomType roomType=RoomType.valueOf(scanner.nextLine());
+        RoomType roomType=RoomType.fromString(scanner.nextLine());
 
         Room room=new Room(roomNumber, price, roomType);
 
@@ -104,6 +105,15 @@ public class AdminMenu {
 
         System.out.println("Room " + room.getRoomNumber()+" added successfully");
 
+        System.out.println("Add another room? y/n");
+        String addRoomResponse= scanner.nextLine().trim().toLowerCase(Locale.ROOT);
+
+
+        if(addRoomResponse.charAt(0) == 'y') {
+            addRoom();
+        } else {
+            printAdminMenu();
+        }
 
     }
 }

@@ -14,8 +14,8 @@ public class ReservationService {
 
     private static final ReservationService reservationService=new ReservationService();
 
-    private static List<Reservation> reservationList;
-    private static List<IRoom> rooms;
+    private static List<Reservation> reservationList = new ArrayList<>();
+    private static List<IRoom> rooms= new ArrayList<>();
 
 
     private ReservationService() {
