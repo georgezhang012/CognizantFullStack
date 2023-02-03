@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fea60dc1-9997-487c-8012-7dc3efef34fa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Collectors/Collectors.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Concurrent_programming/.idea/Concurrent_programming.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Concurrent_programming/CountWordsTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Concurrent_programming/WordCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DependencyInjection/DependencyInjection.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DependencyInjection/src/ExpirationChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DependencyInjection/src/ExpirationCheckerModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DependencyInjection/src/ExpirationCheckerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DependencyInjection/src/FakeClock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DependencyInjection/src/FakeMetadataFetcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DependencyInjection/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DependencyInjection/src/MetadataFetcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DependencyInjection/src/MetadataFetcherImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DependencyInjection/src/lib/algs4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DependencyInjection/src/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DependencyInjection/src/lib/failureaccess-1.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DependencyInjection/src/lib/guava-31.1-jre.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DependencyInjection/src/lib/guice-5.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DependencyInjection/src/lib/javax.inject-1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FileReader/FileReader.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FileReader/src/CountReads.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FileReader/src/MergeShards.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FileReader/src/MultiFileReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HotelReservation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cognizant/hotel/api/AdminResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cognizant/hotel/api/HotelResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cognizant/hotel/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cognizant/hotel/model/FreeRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cognizant/hotel/model/IRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cognizant/hotel/model/Reservation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cognizant/hotel/model/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cognizant/hotel/model/RoomType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cognizant/hotel/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cognizant/hotel/service/ReservationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cognizant/hotel/ui/AdminMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cognizant/hotel/ui/MainMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reflection/Reflection.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reflection/src/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reflection/src/CalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reflection/src/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reflection/src/TestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reflection/src/UnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UdacisearchClient/UdacisearchClient.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UdacisearchClient/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UdacisearchClient/src/UdacisearchClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UdacisearchClient/src/UdacisearchClientFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../finalReview/src/main/java/com/udacity/jwdbd/c1/review/MessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../genericsAndcollections/genericsAndcollections.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../interface_test/interface_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parallel_client/.idea/parallel_client.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parallel_client/ClientStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parallel_client/SummarizeClients.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parallel_client/UdacisearchClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proxy_demo/proxy_demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proxy_demo/src/proxyDemo/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../racing/racing.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../racing/src/com/guihua/java/conncurency/memory/MyRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../racing/src/com/guihua/java/conncurency/memory/SeparateObjects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../racing/src/com/guihua/java/conncurency/memory/SharedObjects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../singleton_design_pattern/singleton_design_pattern.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../singleton_design_pattern/src/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../stream_api/stream_api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Collectors/src/collectionsExample/CollectionsExercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Collectors/src/collectionsExample/CollectionsExercise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Collectors/src/collectionsExample/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Collectors/src/collectionsExample/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Collectors/src/collectionsExample/PersonSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Collectors/src/collectionsExample/PersonSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HotelReserveApplication/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HotelReserveApplication/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HotelReserveApplication/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HotelReserveApplication/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HotelReserveApplication/HotelReserveApplication.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HotelReserveApplication/src/AdminMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HotelReserveApplication/src/MainMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HotelReserveApplication/src/api/AdminResource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HotelReserveApplication/src/api/HotelResource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HotelReserveApplication/src/model/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HotelReserveApplication/src/model/Driver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HotelReserveApplication/src/model/IRoom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HotelReserveApplication/src/model/Reservation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HotelReserveApplication/src/model/Room.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HotelReserveApplication/src/model/RoomType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HotelReserveApplication/src/service/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HotelReserveApplication/src/service/ReservationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../genericsAndcollections/src/collectionExample/SortingExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../genericsAndcollections/src/collectionExample/SortingExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../interface_test/src/Calculate.java" beforeDir="false" afterPath="$PROJECT_DIR$/../interface_test/src/Calculate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../interface_test/src/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../interface_test/src/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../interface_test/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../interface_test/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../interface_test/src/ThisExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../interface_test/src/ThisExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stream_api/src/ClientStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/../stream_api/src/ClientStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stream_api/src/SummarizeClients.java" beforeDir="false" afterPath="$PROJECT_DIR$/../stream_api/src/SummarizeClients.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stream_api/src/UdacisearchClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../stream_api/src/UdacisearchClient.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Kko7CojZF9cW0uklERKkc6lvSR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="HotelReservation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HotelReservation" />
+      <module name="HotelReservation" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HotelReservation" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fea60dc1-9997-487c-8012-7dc3efef34fa" name="Changes" comment="" />
+      <created>1674527771876</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674527771876</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cognizant/hotel/service/ReservationService.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cognizant/hotel/ui/AdminMenu.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cognizant/hotel/ui/AdminMenu.java</url>
+          <line>118</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cognizant/hotel/ui/MainMenu.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cognizant/hotel/ui/MainMenu.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cognizant/hotel/ui/MainMenu.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cognizant/hotel/service/ReservationService.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cognizant/hotel/service/ReservationService.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cognizant/hotel/service/ReservationService.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cognizant/hotel/service/ReservationService.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cognizant/hotel/ui/AdminMenu.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cognizant/hotel/ui/AdminMenu.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cognizant/hotel/ui/AdminMenu.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cognizant/hotel/ui/MainMenu.java</url>
+          <line>106</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cognizant/hotel/ui/MainMenu.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cognizant/hotel/ui/MainMenu.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cognizant/hotel/ui/MainMenu.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cognizant/hotel/ui/MainMenu.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cognizant/hotel/ui/MainMenu.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cognizant/hotel/ui/MainMenu.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cognizant/hotel/ui/MainMenu.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cognizant/hotel/ui/MainMenu.java</url>
+          <line>121</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cognizant/hotel/ui/MainMenu.java</url>
+          <line>120</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
